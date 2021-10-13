@@ -1,0 +1,29 @@
+.logo ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(38, 228, 241);
+  }
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.logo li a:hover {
+    background-color: slateblue;
+}
+
+.main {
+    /* background-image: url(img/malang.jpg); */
+    height: 80%;
+    width: 100%;
+}
