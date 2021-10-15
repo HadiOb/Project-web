@@ -4,112 +4,148 @@
     padding: 0;
     overflow: hidden;
     background-color: rgb(38, 228, 241);
-}
-
-li {
+  }
+  
+  li {
     float: right;
-}
-
-li a {
+  }
+  
+  li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-
-.menu li a:hover {
+  }
+  
+  .menu li a:hover {
     background-color: slateblue;
-}
-
-.top-wrapper {
-    padding: 230px 0 90px 0;
-    background-image: url(https://images.unsplash.com/photo-1547357247-65c96cee979f);
+  }
+  
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  /* bagian tengah */
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(img/prambanan.jfif);
     background-size: cover;
-    color:rgba(34, 49, 52, 0.9);
     text-align: center;
-}
-
-.top-wrapper h2 {
-    opacity: 0.5;
-    font-size: 40px;
-    letter-spacing: 3px;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
     margin-bottom: 10px;
-}
-
-.top-wrapper p {
+  }
+  
+  .top-wrapper p {
     opacity: 0.7;
     margin-bottom: 3px;
-}
-
-.btn-wrapper {
+  }
+  
+  .btn-wrapper {
     margin: 20px 0;
-}
-
-.btn-wrapper p {
+  }
+  
+  .btn-wrapper p {
     margin: 10px 0;
-}
-
-.offer {
-    background-color: #fbc531;
-}
-
-
-.btn {
+  }
+  
+  .offer {
+    background-color: yellow;
+  }
+  
+  .btn {
     padding: 12px 24px;
-    color: white;
+    color: blue;
     display: inline-block;
     opacity: 0.8;
     border-radius: 4px;
-}
-
-.btn:hover {
-    opacity: 1;
-}
-
-.lesson {
-    float: left;
-    width: 25%;
-}
-
-.lesson-icon {
-    position: relative;
-}
-
-.lesson-icon p {
-    position: absolute;
+  }
+  
+  .btn:hover {
+    opacity: 1.1;
+  }
+  
+  /* Bagian gambar */
+  .lesson-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: white;
     text-align: center;
-    top: 90px;
-    width: 100%;
-    color: white;
-
-}
-
-.txt-contents {
-    width: 80%;
-    display: inline-block;
-    margin-top: 20px;
-    font-size: 15px;
-    color: #b3aeb5;
-    text-align: center;
-}
-
-.heading {
+  }
+  
+  .heading {
     padding-top: 60px;
     padding-bottom: 30px;
     color: #5f5d60;
-    text-align: center;
-}
-
-.heading h2 {
+  }
+  
+  .heading h2 {
     font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width:  25%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+  
+  /* bagian btn submit */
+  .pesan-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
     text-align: center;
-}
-
-/* bagian footer */
-footer {
+  }
+  
+  .head  h3{
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .pesan {
+    padding: 15px 40px;
+    background-color: rgb(92, 92, 238);
+    cursor: pointer;
+    box-shadow: 0 7px #b4c4f8;
+  }
+  
+  .pesan:active {
+    position: relative;
+    top: 8px;
+    box-shadow: none;
+  }
+  
+  /* bagian footer */
+  footer {
+    background-color: darkgray;
+  }
+  
+  footer p {
     text-align: center;
-    background-color: turquoise;
-    height: 30px;
-}
-
+    color: blue;
+    font-size: 12px;
+  }
