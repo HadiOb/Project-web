@@ -1,3 +1,11 @@
+header {
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
 .menu ul{
     list-style-type: none;
     margin: 0;
@@ -57,12 +65,12 @@
   }
   
   .offer {
-    background-color: yellow;
+    background-color: rgb(0, 238, 255);
   }
   
   .btn {
     padding: 12px 24px;
-    color: blue;
+    color:red;
     display: inline-block;
     opacity: 0.8;
     border-radius: 4px;
@@ -71,7 +79,7 @@
   .btn:hover {
     opacity: 1.1;
   }
-  
+
   /* Bagian gambar */
   .lesson-wrapper {
     height: 500px;
@@ -120,6 +128,22 @@
     padding-bottom: 80px;
     text-align: center;
   }
+
+.pesan-wrapper {
+  height: 100px;
+  background-color: rgb(250, 56, 56);
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
   
   .head  h3{
     font-weight: normal;
@@ -128,9 +152,9 @@
   
   .pesan {
     padding: 15px 40px;
-    background-color: rgb(92, 92, 238);
+    background-color: rgb(14, 245, 14);
     cursor: pointer;
-    box-shadow: 0 7px #b4c4f8;
+    box-shadow: 0 7px #f8b4da;
   }
   
   .pesan:active {
@@ -148,4 +172,69 @@
     text-align: center;
     color: blue;
     font-size: 12px;
+  }
+
+  /* Responsif */
+  @media screen and (max-width: 1120px) {
+    .menu .top-wrapper .lesson-wrapper .pesan-wrapper {
+      width: 100%;
+      position: absolute;
+      margin padding : 0 0;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+    .menu li {
+      width: 25%;
+    }
+    .container {
+      position: relative;
+      width: 100%;
+    }
+    .container h1 {
+      font-size: 25px;
+    }
+    .container p {
+      font-size: 15px;
+    }
+    .container h2 {
+      font-size: 15px;
+      width: 100%;
+    }
+    .lesson-icon img {
+      display: flex;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 670px) {
+    .menu .top-wrapper .lesson-wrapper .pesan-wrapper {
+      width: 100%;
+      position: absolute;
+      margin padding : 0 0;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+    .menu li {
+      width: 25%;
+    }
+    .container {
+      position: relative;
+      width: 100%;
+    }
+    .container h1 {
+      font-size: 25px;
+    }
+    .container p {
+      font-size: 15px;
+    }
+    .container h2 {
+      font-size: 15px;
+      width: 100%;
+    }
+    .lesson-icon img {
+      display: flex;
+      width: 100%;
+    }
   }
